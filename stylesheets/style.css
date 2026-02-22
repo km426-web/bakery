@@ -1,83 +1,68 @@
 @charset "UTF-8";
 
 /*基本設定*/
-*,*::before,*::after{
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
-html{
+
+html {
 	scroll-behavior: smooth;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-a{
+a {
 	text-decoration: none;
-	color:inherit;
-	transition:all 0.15 ease-in-out;
+	color: inherit;
+	transition: all 0.15 ease-in-out;
 
 }
-a:hover{
+
+a:hover {
 	display: inline-block;
 	transform: scale(1.2);
 }
 
-figure{
-	margin:0;
+figure {
+	margin: 0;
 }
+
 img {
-  width: 100%;
-  height: auto;
-  display: block;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+body {
+	font-family: "Kiwi Maru", serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 /*ヘッダー部分*/
 
-	.header{
-	/*フォント*/
-	  font-family: "Kiwi Maru", serif;
-	  font-weight: 500;
-	  font-style: normal;
-	 /*並び*/
-	  display: flex;
-	  align-items:center;
-	  justify-content: space-between;
-	 /*スクロールしても固定*/
-	  position:fixed;
-	  z-index: 2;
-	 /*背景*/
-	 background-color: #A0B59D;
-	 width: 100%;
-	 margin-bottom:2rem;
-	  
-	}
-	.header-nav-list{
-		display: flex;
-		gap: 20px;
-	}
-	
-	.header-logo{
-		font-size: 4rem;
-	}
-	
-	.header-nav{
-		font-size: 1.5rem;
-	
-	}
+.header {
+	/*並び*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*スクロールしても固定*/
+	position: fixed;
+	z-index: 2;
+	/*背景*/
+	background-color: #A0B59D;
+	width: 100%;
+
+}
+
+.header-nav-list {
+	display: flex;
+}
+
 
 
 /*ボディ部分*/
-
-	body{
-	/*フォント*/
-		font-family: "Kiwi Maru",serif;
-		font-weight:400;
-		font-size: 2rem;
-	}
-	
-	.main-menu-container,.main-access{
-		font-size: 3rem;
-		margin-bottom:3rem;
-	}
-	

@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+.header {
+  flex-direction: row;
+  margin-bottom:2rem;
+  padding :2rem 2rem;
+}
+
+.header-logo {
+  font-size: 4rem;
+}
+
+
+.header-nav{
+	font-size: 1.5rem;
+}
+
+.header-nav-list {
+	gap: 20px;
+}
+
+body{
+	font-size: 1.5rem;
+}
+
+.main-menu-container,.main-access{
+	font-size: 1.8rem;
+	padding-bottom:2rem;
+}
+
+.main-map iframe {
+  width: 600px; 
+  height: 450px; 
+  display: block;
+  margin: 0 auto; 
+}
