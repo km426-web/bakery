@@ -23,6 +23,10 @@ body{
 	font-size: 1.5rem;
 }
 
+section{
+	margin-bottom:2rem;
+}
+
 .main-menu-container,.main-access{
 	font-size: 1.8rem;
 	padding-bottom:2rem;
@@ -33,4 +37,8 @@ body{
   height: 450px; 
   display: block;
   margin: 0 auto; 
+}
+
+.main-concept,.main-menu-container,.main-access,.footer{
+	margin-left:3rem;
 }

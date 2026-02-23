@@ -41,6 +41,7 @@ body {
 	font-family: "Kiwi Maru", serif;
 	font-weight: 500;
 	font-style: normal;
+	color: #374D59;
 }
 
 /*ヘッダー部分*/
@@ -54,15 +55,36 @@ body {
 	position: fixed;
 	z-index: 2;
 	/*背景*/
-	background-color: #A0B59D;
+	background-color: #91CBEB;
 	width: 100%;
 
 }
 
 .header-nav-list {
 	display: flex;
+	margin:0px;
+	padding:0px;
 }
 
 
 
 /*ボディ部分*/
+
+.main-hero-pic{
+	background-color: papayawhip;
+	opacity: 0.6;
+}
+
+/*フッター部分*/
+
+/*.footer {
+	/*並び*/
+	/*display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-logo{
+	display: flex;
+	margin:0px;
+	padding: 0px;;
+}*/
